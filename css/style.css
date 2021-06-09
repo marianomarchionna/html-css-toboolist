@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*caratteristiche header*/
+header{
+    padding-top: 1% ;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    background-color: white;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+#logo-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 170%;
+    vertical-align: middle;
+}
+/*fine header*/
+
+body{
+    background-color: whitesmoke ;
+}
