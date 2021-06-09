@@ -6,10 +6,11 @@
 
 /*caratteristiche header*/
 header{
-    padding-top: 1% ;
+    padding-top: 0.5% ;
     padding-left: 2%;
-    padding-bottom: 1%;
+    padding-bottom: 0.5%;
     background-color: white;
+    border-top: 2px solid whitesmoke;
 }
 
 #logo{
@@ -26,3 +27,42 @@ header{
 body{
     background-color: whitesmoke ;
 }
+
+main {
+    width: 80%;
+    height: 700px;
+    background-color: white;
+    margin: 30px auto;
+    border-radius: 5px;
+  }
+
+hr {
+    background-color: white;
+    border-top: white;
+    border-left: white;
+}
+/*caratteristiche navigation*/
+.button {
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+}
+  
+.task {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+  
+.add-task {
+    background-color: dodgerblue;
+    color: white;
+}
+  
+.add-section {
+    border: 1px solid lightgray;
+    color: lightgrey;
+}
+/*fine navigation*/
